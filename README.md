@@ -1,4 +1,4 @@
-<h1 align="center">UNETR_2D and YNETR_2D</h1>
+<h1 align="center">UNETR_2D </h1>
 <p align="center">2D implementation in Tensorflow2-Keras of UNETR [1], and YNETR a new proposed architecture, for EM image segmentation.</p>
  
 ---
