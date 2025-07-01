@@ -144,7 +144,7 @@ def two_yellow(x, filters, activation='relu', kernel_initializer='glorot_uniform
     """
     x = basic_yellow_block(x, filters, activation=activation, kernel_initializer=kernel_initializer, batch_norm=batch_norm, dropout=dropout)
     x = basic_yellow_block(x, filters, activation=activation, kernel_initializer=kernel_initializer, batch_norm=batch_norm, dropout=0.0)
-#     return x
+    return x
 # def mid_blue_block(x, filters, activation='relu', kernel_initializer='glorot_uniform', batch_norm=True, dropout=0.0):
 #     """
 #     Upsample followed by residual yellow block.
